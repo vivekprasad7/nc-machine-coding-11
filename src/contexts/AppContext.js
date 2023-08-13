@@ -33,7 +33,7 @@ export const AppContextProvider = ({children}) => {
         }
 
         if (state?.genre?.length !== 0){
-            filteredMovies = filteredMovies.filter((item) => item.genre.some((genre) => genre.toLowerCase().includes(state?.genre?.toLowerCase())) )
+            filteredMovies = filteredMovies.filter((item) => item?.genre?.some((genre) => genre.toLowerCase().includes(state?.genre?.toLowerCase())) )
         }
 
         if(state?.year?.length !== 0){

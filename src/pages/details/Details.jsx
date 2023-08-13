@@ -27,11 +27,11 @@ export const Details = () => {
                 <img src={singleMovie?.imageURL} alt={singleMovie?.title} />
                 <h3>Title: {singleMovie?.title}</h3>
                 <p>Year: {singleMovie?.year}</p>
-                <p>Genre: {singleMovie?.genre?.join(', ')}</p>
+                {/* <p>Genre: {singleMovie?.genre?.join(', ')}</p> */}
                 <p>Rating: {singleMovie?.rating}</p>
                 <p>Director: {singleMovie?.director}</p>
                 <p>Writer: {singleMovie?.writer}</p>
-                <p>Cast: {singleMovie?.cast?.join(', ')}</p>
+                {/* <p>Cast: {singleMovie?.cast?.join(', ')}</p> */}
                 <p>Summary: {singleMovie.summary}</p>
             </div>
         </div>
