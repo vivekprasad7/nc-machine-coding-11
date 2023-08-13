@@ -1,0 +1,26 @@
+.home{
+    text-align: center;
+    padding:2rem;
+}
+
+.home-top{
+    padding: 2.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.movies-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.filters{
+    border: solid 1px gray;
+    padding:1.5rem;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

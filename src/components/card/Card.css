@@ -1,0 +1,30 @@
+.card{
+    width:260px;
+    padding:10px;
+    display: inline-block;
+    margin: 1.3rem;
+    box-shadow: 1px 2px 3px 4px rgba(0.2);
+    border: solid 1px black;
+}
+
+.card img{
+    width:240px;
+    max-height: 330px;
+}
+
+button{
+    width:fit-content;
+    min-width: 100px;
+    height: 40px;
+    padding:0.5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+
+.card-buttons{
+    display: flex;
+    justify-content: space-around;
+}
