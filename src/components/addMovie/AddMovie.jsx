@@ -41,7 +41,7 @@ export const AddMovie = ({ showModal, setShowModal }) => {
               <i onClick={() => setShowModal(false)} className="fa-solid fa-close icon-circle"></i>
             </div>
           </div>
-          <form onSubmit={submitHandler}>
+          <form className='modal-form' onSubmit={submitHandler}>
             <input type="text" name="title" placeholder="Title" value={newMovieData.title} onChange={changeHandler} />
             <input type="text" name="year" placeholder="Year" value={newMovieData.year} onChange={changeHandler} />
             {/* <input type="text" name="genre" placeholder="Genre" value={newMovieData.genre} onChange={changeHandler} /> */}
